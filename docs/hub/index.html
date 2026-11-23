@@ -1,0 +1,534 @@
+<title>NAMS Session 7 Introduction and Title Hub</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&family=Newsreader:opsz,wght@6..72,600&display=swap"><style>
+:root{
+  --bg:#F4F6F5; --surface:#FFFFFF; --ink:#17201D; --muted:#5A6762; --line:#D9E1DE;
+  --accent:#1F5A85; --accent-soft:#E3EDF4; --code:#EEF2F1;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#101614; --surface:#171F1C; --ink:#E4EBE8; --muted:#98A5A0; --line:#2A3531;
+    --accent:#86B8DC; --accent-soft:#1C2B36; --code:#1D2724;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#101614; --surface:#171F1C; --ink:#E4EBE8; --muted:#98A5A0; --line:#2A3531;
+  --accent:#86B8DC; --accent-soft:#1C2B36; --code:#1D2724;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--sans);padding-inline:16px;padding-block:0 48px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto}
+header.top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;
+  padding-block:28px 18px;border-bottom:1px solid var(--line);margin-bottom:24px}
+.eyebrow{font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+h1.name{font:600 30px/1.15 var(--serif);margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:32px;align-items:start}
+nav.docs{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);display:grid;gap:18px}
+nav.docs h2{font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+nav.docs ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+nav.docs button{all:unset;cursor:pointer;display:block;padding:6px 10px;border-radius:6px;font-size:14px;line-height:1.35;width:100%}
+nav.docs button:hover{background:var(--accent-soft)}
+nav.docs button[aria-current="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+nav.docs .date{display:block;font-size:12px;color:var(--muted);font-weight:400;font-variant-numeric:tabular-nums}
+article{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:28px clamp(18px,4vw,44px) 40px;min-width:0}
+.dochead{border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:8px}
+.dochead h2{font:600 26px/1.2 var(--serif);margin:0 0 6px;text-wrap:balance}
+.dochead .path{font:12px/1.4 var(--mono);color:var(--muted);word-break:break-all}
+.body{max-width:72ch}
+.body h1,.body h2,.body h3,.body h4{font-family:var(--serif);line-height:1.25;text-wrap:balance;margin:1.6em 0 .5em}
+.body h1{font-size:24px}.body h2{font-size:21px}.body h3{font-size:18px}.body h4{font-size:16px}
+.body p,.body ul,.body ol{margin:.6em 0}
+.body li{margin:.2em 0}
+.body blockquote{margin:1em 0;padding:.4em 1em;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 6px 6px 0}
+.body code{font:13px/1.5 var(--mono);background:var(--code);padding:1px 5px;border-radius:4px}
+.body pre{background:var(--code);padding:12px 14px;border-radius:8px;overflow-x:auto}
+.body pre code{background:none;padding:0}
+.tbl{overflow-x:auto;margin:1em 0}
+.body table{border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.body th,.body td{border-bottom:1px solid var(--line);padding:6px 12px 6px 0;text-align:left;vertical-align:top}
+.body th{font-weight:600;color:var(--muted);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+@media (max-width:760px){
+  .layout{grid-template-columns:1fr;gap:20px}
+  nav.docs{position:static}
+  nav.docs ul{grid-auto-flow:row}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style><div class="wrap"><header class="top"><div><p class="eyebrow">Research hub</p><h1 class="name">NAMS Session 7 Introduction and Title</h1></div><div class="meta">3 documents · built 23 Nov 2026, 18:06</div></header><div class="layout"><nav class="docs" aria-label="Documents"><div><h2>Project</h2><ul><li><button type="button" data-doc="docs-literature-review-md">Literature review: claims on the Session 7 slides<span class="date">23 Nov 2026</span></button></li><li><button type="button" data-doc="docs-lit-a-intro-structure-md">Literature verification A: structure of the Introduction<span class="date">23 Nov 2026</span></button></li><li><button type="button" data-doc="docs-lit-b-titles-ai-md">Source verification B: titles and AI-generated references<span class="date">23 Nov 2026</span></button></li></ul></div></nav><div><article data-doc="docs-literature-review-md"><div class="dochead"><h2>Literature review: claims on the Session 7 slides</h2><div class="path">docs/literature_review.md · updated 23 Nov 2026, 18:04</div></div><div class="body">
+<p>Checked 23 Nov 2026. Detail and quotes are in <code>lit_A_intro_structure.md</code> (Introduction) and <code>lit_B_titles_ai.md</code> (titles, AI references). AI demo: <code>../ai_demo/</code> (8 runs plus the first run, <code>ref_check.csv</code>).</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Slide claim</th>
+<th>Source</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Introduction gives context, states a specific purpose, has no data or conclusions</td>
+<td>ICMJE Recommendations, Preparing a Manuscript (live page)</td>
+<td>Verified (page text read)</td>
+</tr>
+<tr>
+<td>Background and objectives are reporting items</td>
+<td>STROBE items 2 and 3 (official checklist PDF); CONSORT 2025 items 6 and 7 (PLOS Med copy, PMC11996237)</td>
+<td>Verified; BMJ copy not opened</td>
+</tr>
+<tr>
+<td>CARS has three moves</td>
+<td>Swales 1990 / 2004</td>
+<td><strong>Secondary only</strong> (Bahadoran 2018, a writing-centre page). Books not opened. No source found for "one move is skipped most", so not claimed</td>
+</tr>
+<tr>
+<td>Length of an Introduction</td>
+<td>Cals &amp; Kotz 2013 (4–5 paragraphs, 10–15% of the paper); Bahadoran 2018 (2–3 paragraphs, about 250–300 words)</td>
+<td>Verified (full text of both). Guides disagree, so the slide gives a teaching range and says "check the journal". Bavdekar 2015: abstract only</td>
+</tr>
+<tr>
+<td>Tense</td>
+<td>Cals &amp; Kotz 2013</td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>"Almost half of all women" have a UTI</td>
+<td>Foxman 2002 (PMID 12113866)</td>
+<td>Abstract read. US data, 1990s</td>
+</tr>
+<tr>
+<td><em>E. coli</em> is the commonest UTI cause</td>
+<td>Flores-Mireles 2015 (PMID 25853778)</td>
+<td>Verified (full text)</td>
+</tr>
+<tr>
+<td>ESBL <em>E. coli</em> emerged in the community as a UTI cause</td>
+<td>Pitout &amp; Laupland 2008 (PMID 18291338)</td>
+<td>Abstract read. It does <strong>not</strong> say oral options are limited, so the slide does not claim that with this source</td>
+</tr>
+<tr>
+<td>National network pools isolates (26,562 urine isolates, 2024)</td>
+<td>ICMR AMRSN Annual Report 2024, 8th edition</td>
+<td>PDF opened. Newest I found, not proven newest</td>
+</tr>
+<tr>
+<td>ICMR report Jan–Dec 2022 (cited in two AI runs)</td>
+<td>News coverage only</td>
+<td><strong>Not opened.</strong> Exists per news (sixth report). Title not vouched for</td>
+</tr>
+<tr>
+<td>Title wording in reporting guidelines</td>
+<td>STROBE 1a, STARD 1, TRIPOD+AI 1, PRISMA 2020 1, CONSORT 2025 1a</td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>ICMJE on titles</td>
+<td>ICMJE title-page text</td>
+<td>Verified. The word "concise" is <strong>not</strong> in it, so not attributed</td>
+</tr>
+<tr>
+<td>Shorter titles and citations</td>
+<td>Letchford 2015 (full text); Paiva 2012 (abstract)</td>
+<td>Small, observational, mixed</td>
+</tr>
+<tr>
+<td>Question titles</td>
+<td>Jamali &amp; Nikzad 2011</td>
+<td>Abstract only</td>
+</tr>
+<tr>
+<td>Colon titles; Annesley 2010 "title" advice</td>
+<td>Hartley 2007; Annesley <em>Clin Chem</em> 2010</td>
+<td><strong>Not verified.</strong> Citations exist; text not opened. Not used on slides</td>
+</tr>
+<tr>
+<td>AI fabricated-reference rates</td>
+<td>Walters &amp; Wilder 2023 (55% GPT-3.5, 18% GPT-4); Bhattacharyya 2023 (47% GPT-3.5); Chelli 2024; Athaluri 2023</td>
+<td>Abstracts only. Old models, different definitions</td>
+</tr>
+<tr>
+<td>9 AI runs, 45 references, 43 found in PubMed</td>
+<td><code>ai_demo/ref_check.csv</code> (Crossref + PubMed)</td>
+<td>Existence checked by script. "Supports the claim" judged by me, from titles, for the "exceeds half" sentence only</td>
+</tr>
+<tr>
+<td>Planted fake (Narayanan &amp; Deshpande 2023)</td>
+<td>Invented</td>
+<td>No PubMed match on title search</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="not-verified-at-all">Not verified at all</h2>
+<ul>
+<li>Swales 1990 and 2004 (books).</li>
+<li>Annesley 2010 and Hartley 2007 text.</li>
+<li>IDSA complicated-UTI guidance (not used on slides).</li>
+<li>Whether a newer ICMR AMRSN report exists than the 2024 one.</li>
+<li>Full texts for the 45 AI references; support was judged only for the "exceeds half" sentence.</li>
+</ul>
+</div></article><article data-doc="docs-lit-a-intro-structure-md"><div class="dochead"><h2>Literature verification A: structure of the Introduction</h2><div class="path">docs/lit_A_intro_structure.md · updated 23 Nov 2026, 17:57</div></div><div class="body">
+<p>Checked 2026-11-23. "Opened" means I read the page or PDF text in this session. Quotes are 15 words or fewer.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Claim</th>
+<th>Source (citation, URL/DOI/PMID)</th>
+<th>Opened?</th>
+<th>Quote</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1a</td>
+<td>ICMJE: background</td>
+<td>ICMJE Recommendations, Preparing for Submission, IMRaD, Introduction. <a href="https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html">https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html</a></td>
+<td>opened (WebFetch extract)</td>
+<td>"Provide a context or background for the study"</td>
+<td>verified</td>
+</tr>
+<tr>
+<td>1b</td>
+<td>ICMJE: specific purpose</td>
+<td>same</td>
+<td>opened</td>
+<td>"State the specific purpose or research objective of, or hypothesis tested"</td>
+<td>verified</td>
+</tr>
+<tr>
+<td>1c</td>
+<td>ICMJE: refs, no data/conclusions</td>
+<td>same</td>
+<td>opened</td>
+<td>"do not include data or conclusions from the work being reported"</td>
+<td>verified</td>
+</tr>
+<tr>
+<td>2a</td>
+<td>STROBE item 2</td>
+<td>STROBE checklist, combined cohort/case-control/cross-sectional, official PDF <a href="https://www.strobe-statement.org/download/strobe-checklist-cohort-case-control-and-cross-sectional-studies-combined">https://www.strobe-statement.org/download/strobe-checklist-cohort-case-control-and-cross-sectional-studies-combined</a> (downloaded, read with pdftotext)</td>
+<td>opened</td>
+<td>"Explain the scientific background and rationale for the investigation being reported"</td>
+<td>verified</td>
+</tr>
+<tr>
+<td>2b</td>
+<td>STROBE item 3</td>
+<td>same PDF</td>
+<td>opened</td>
+<td>"State specific objectives, including any prespecified hypotheses"</td>
+<td>verified</td>
+</tr>
+<tr>
+<td>3a</td>
+<td>CONSORT 2025 background</td>
+<td>CONSORT 2025 Statement, PLoS Med copy PMC11996237, doi 10.1371/journal.pmed.1004587, PMID 40228477 (full text via Europe PMC XML). The BMJ copy (BMJ 2025;388:e081123) was not opened</td>
+<td>opened (PLoS Med copy)</td>
+<td>"Background and rationale 6 Scientific background and rationale"</td>
+<td>verified: item 6</td>
+</tr>
+<tr>
+<td>3b</td>
+<td>CONSORT 2025 objectives</td>
+<td>same</td>
+<td>opened</td>
+<td>"Objectives 7 Specific objectives related to benefits and harms"</td>
+<td>verified: item 7</td>
+</tr>
+<tr>
+<td>4a</td>
+<td>Swales CARS: three moves</td>
+<td>Goodall A. Writing Point blog, Charles Univ. Faculty of Social Sciences, 2019, <a href="https://writing-point.fsv.cuni.cz/?p=721">https://writing-point.fsv.cuni.cz/?p=721</a>; and Bahadoran 2018 (row 5b)</td>
+<td>opened</td>
+<td>"Establishing a territory", "Establishing a niche", "Occupying the niche"</td>
+<td>verified, SECONDARY ONLY (Swales 1990/2004 not opened)</td>
+</tr>
+<tr>
+<td>4b</td>
+<td>A CARS move most often omitted</td>
+<td>Searched; none found</td>
+<td>n/a</td>
+<td>none</td>
+<td>not found</td>
+</tr>
+<tr>
+<td>5a</td>
+<td>Cals &amp; Kotz</td>
+<td>Cals JW, Kotz D. Effective writing and publishing scientific papers, part III: introduction. J Clin Epidemiol 2013;66(7):702. doi 10.1016/j.jclinepi.2013.01.004. PDF <a href="https://tri.uams.edu/wp-content/uploads/2022/06/Writing-Papers-III-Introduction-JCE.pdf">https://tri.uams.edu/wp-content/uploads/2022/06/Writing-Papers-III-Introduction-JCE.pdf</a></td>
+<td>opened (full one-page PDF)</td>
+<td>"typically not more than 10-15% of the full word count of the paper"</td>
+<td>verified. It is part III, not part IV</td>
+</tr>
+<tr>
+<td>5b</td>
+<td>Bahadoran et al.</td>
+<td>Bahadoran Z, Jeddi S, Mirmiran P, Ghasemi A. The Principles of Biomedical Scientific Writing: Introduction. Int J Endocrinol Metab 2018;16(4):e84795. PMID 30464776, PMC6218661, doi 10.5812/ijem.84795 (2018, not 2019)</td>
+<td>opened (PMC full text)</td>
+<td>"approximately 250 - 300 words are typically sufficient"</td>
+<td>verified</td>
+</tr>
+<tr>
+<td>5c</td>
+<td>Bavdekar</td>
+<td>Bavdekar SB. Writing Introduction: Laying the Foundations of a Research Paper. J Assoc Physicians India 2015;63(7):44-6. PMID 26731827</td>
+<td>abstract only</td>
+<td>"It should be focused, succinct and crisp."</td>
+<td>verified (abstract only)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Lifetime UTI risk in women</td>
+<td>Foxman B. Epidemiology of urinary tract infections: incidence, morbidity, and economic costs. Am J Med 2002;113 Suppl 1A:5S-13S. PMID 12113866, doi 10.1016/s0002-9343(02)01054-9 (republished Dis Mon 2003;49:53-70, PMID 12601337)</td>
+<td>abstract only (PubMed tool)</td>
+<td>"Almost half of all women will experience 1 UTI during their lifetime."</td>
+<td>verified. Flores-Mireles has no lifetime figure (notes)</td>
+</tr>
+<tr>
+<td>7a</td>
+<td>E. coli commonest cause</td>
+<td>Flores-Mireles AL et al. Nat Rev Microbiol 2015;13:269-84. PMID 25853778, PMC4457377, doi 10.1038/nrmicro3432</td>
+<td>opened (PMC full text)</td>
+<td>"most commonly by Escherichia coli, Klebsiella pneumoniae, Proteus mirabilis" (abstract)</td>
+<td>verified</td>
+</tr>
+<tr>
+<td>7b</td>
+<td>ESBL E. coli in community UTI</td>
+<td>Pitout JD, Laupland KB. Lancet Infect Dis 2008;8(3):159-66. PMID 18291338, doi 10.1016/S1473-3099(08)70041-0</td>
+<td>abstract only</td>
+<td>"emerged within the community setting as an important cause of UTIs"</td>
+<td>verified for emergence; abstract does NOT say oral options are limited</td>
+</tr>
+<tr>
+<td>7c</td>
+<td>ESBL limits oral options</td>
+<td>IDSA Guidance on Treatment of Antimicrobial-Resistant Gram-Negative Infections, <a href="https://www.idsociety.org/practice-guideline/amr-guidance/">https://www.idsociety.org/practice-guideline/amr-guidance/</a> (2026 version; replaces v4.0, Aug 2024)</td>
+<td>opened via summarising fetch (first 100k of 219k chars)</td>
+<td>"Nitrofurantoin retains high activity against ESBL-E"</td>
+<td>partly: guideline lists oral agents that still work; it does not say "limited". v4.0 (2024) not opened</td>
+</tr>
+<tr>
+<td>8</td>
+<td>ICMR AMRSN latest annual report</td>
+<td>Annual Report 2024, ICMR Antimicrobial Resistance Research &amp; Surveillance Network (AMRSN), 8th edition, Jan-Dec 2024, Division of Descriptive Research, ICMR New Delhi, (c) 2025. <a href="https://www.icmr.gov.in/icmrobject/uploads/Report/1763981012_icmramrsnannualreport2024.pdf">https://www.icmr.gov.in/icmrobject/uploads/Report/1763981012_icmramrsnannualreport2024.pdf</a></td>
+<td>opened (206-page PDF, text extracted)</td>
+<td>"E. coli is the predominant pathogen isolated from the urine samples."</td>
+<td>verified</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="notes">Notes</h2>
+<h3 id="1-icmje">1. ICMJE</h3>
+<p>The text came from a fetch tool's extraction of the Introduction paragraph, returned as three verbatim sentences, not a raw HTML read. If the slide shows a full sentence, re-check the live page. Full third sentence as returned: "Cite only directly pertinent references, and do not include data or conclusions from the work being reported."</p>
+<h3 id="2-strobe">2. STROBE</h3>
+<p>Read from the official PDF. Item 1 is title/abstract, 2 is background/rationale, 3 is objectives.</p>
+<h3 id="3-consort-2025">3. CONSORT 2025</h3>
+<p>Items are 6 (background and rationale) and 7 (objectives), not 5 and 6, because CONSORT 2025 added an open-science block (items 2-5) before Introduction. Wording: item 6 "Scientific background and rationale"; item 7 "Specific objectives related to benefits and harms". CONSORT 2010 used 2a and 2b, so do not mix numbering. PMC11996237 is the PLoS Med publication of the same statement.</p>
+<h3 id="4-swales-cars">4. Swales CARS</h3>
+<p>Source level is secondary (a university writing blog, and a review that cites Swales). A UMass Writing Center page returned HTTP 403. Search snippets (not opened) give the steps under each move. Bahadoran 2018 (opened) says CARS "follows three moves including establishing a territory (the situation), establishing a niche (the problem), and occupying a niche (the solution)", citing Swales and Najjar and a 2011 Swales reissue, not the 1990 book directly. No source I found says one move is most often omitted. Do not claim it on the slide.</p>
+<h3 id="5-practical-guides">5. Practical guides</h3>
+<ul>
+<li>Cals &amp; Kotz 2013: funnel shape. Length "typically not more than 10-15%" of full word count. Develop "four to five paragraphs". Checklist sections: general background; what is known and unknown; primary research question; study aim and design. Not a full review; leave comparisons for the Discussion. Present tense for established facts, past tense or present perfect for findings not considered established. End with research question or hypothesis plus brief design. Separate primary from secondary aims. Cite only truly relevant references.</li>
+<li>Bahadoran 2018: funnel or inverted pyramid. "usually consists of 2 - 3 ... and sometimes 4 paragraphs" (known, unknown/gap, hypothesis/question, sometimes approach). Length: "not exceed one double-spaced typed page", about 250-300 words, sometimes 500-600; 10-15% of the manuscript; over two-thirds of the Results length is probably too long. Paragraph 3-4 sentences or 75-150 words. Present tense for established knowledge, past tense for results being reported. Should not include results or conclusions. Objectives "no more than two sentences". Avoid sweeping generalisations in the first sentence. Pitfalls include too much general information and detailed review of earlier work. Most of the numbers are secondhand from sources it cites, so attribute as "Bahadoran et al., summarising".</li>
+<li>Bavdekar 2015: abstract only. Rationale and main purpose; "focused, succinct and crisp"; mistakes are extensive literature review and unclear hypothesis/objectives. Length, paragraphs and tense are NOT verified (full text not opened).</li>
+<li>Word and paragraph guidance found: Bahadoran (250-300 words, 2-3 paragraphs) and Cals &amp; Kotz (10-15%, 4-5 paragraphs). They differ on paragraph number; present both.</li>
+</ul>
+<h3 id="6-lifetime-risk">6. Lifetime risk</h3>
+<p>Flores-Mireles 2015 gives "150 million people each year worldwide" but the word "lifetime" does not occur in the full text I read. Use Foxman 2002. The same abstract says "Nearly 1 in 3 women will have had at least 1 episode of UTI requiring antimicrobial therapy by the age of 24 years." Figures are US-based and from 1990s data; flag that for an Indian audience.</p>
+<h3 id="7-e-coli-and-esbl">7. E. coli and ESBL</h3>
+<ul>
+<li>Flores-Mireles full text: "The most common causative agent for both uncomplicated and complicated UTIs is uropathogenic E[scherichia coli]" (text cut at the bracket by my extraction; it is that sentence). It also says E. coli and K. pneumoniae "have both acquired plasmids encoding extended-spectrum beta-lactamases (ESBLs)".</li>
+<li>IDSA: the 2024 version was not opened. The live page is the 2026 guidance. A separate IDSA complicated-UTI guideline page (<a href="https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/">https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/</a>, dated 17 Jul 2025) was fetched and does not mention ESBL. For "few oral options" the best-supported wording is the ICMR data below plus IDSA's nitrofurantoin point, not a guideline sentence saying "limited".</li>
+<li>Pitout &amp; Laupland: abstract only; supports ESBL E. coli as a community UTI cause and carbapenems as drugs of choice for severe infections.</li>
+</ul>
+<h3 id="8-icmr-amrsn">8. ICMR AMRSN</h3>
+<p>Latest found: Annual Report 2024, 8th edition. Direct curl was blocked; WebFetch downloaded the PDF and I extracted text with pdftotext. I did not browse the icmr.gov.in/amr index, so a newer file is not ruled out. Text read directly:</p>
+<ul>
+<li>99,027 culture-positive isolates in 2024; 26,562 from urine.</li>
+<li>Clinical relevance box: "Fairly good susceptibility was observed for nitrofurantoin and fosfomycin", which remain the drug of choice for cystitis.</li>
+<li>Urinary E. coli: piperacillin-tazobactam susceptibility fell from 73.7% (2017) to 55.9% (2024); cefotaxime susceptibility stayed 24.5% to 25.8%.</li>
+<li>E. coli from all samples EXCEPT urine and faeces: 10.7% susceptible to ciprofloxacin and 15.8% to levofloxacin; the report links this to "widespread" ESBL production. Do not present these as urinary figures.</li>
+<li>Caveat: ICMR 2020 report (search snippet only, not opened) says network data come from tertiary hospitals and do not reflect community AMR. State it.</li>
+</ul>
+<h3 id="blocked-or-unreachable">Blocked or unreachable</h3>
+<ul>
+<li>pubmed.ncbi.nlm.nih.gov via WebFetch (cookie wall); the PubMed tool was used instead.</li>
+<li>umass.edu writing centre (403).</li>
+<li>Swales 1990 and 2004 books: not accessible.</li>
+</ul>
+</div></article><article data-doc="docs-lit-b-titles-ai-md"><div class="dochead"><h2>Source verification B: titles and AI-generated references</h2><div class="path">docs/lit_B_titles_ai.md · updated 23 Nov 2026, 17:57</div></div><div class="body">
+<p>Checked 2026-11-23. "Opened" means I read the text myself in this session (PubMed record, PMC full text, publisher/Crossref/RePEc record). Quotes are copied from the text I read.</p>
+<h2 id="table">Table</h2>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Citation and link</th>
+<th>Opened?</th>
+<th>Key finding (numbers as stated)</th>
+<th>Quote (max 15 words)</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>ICMJE Recommendations, "Preparing a Manuscript for Submission", III.A.a Title Page. <a href="https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html">https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html</a></td>
+<td>Opened (full page, searched every "title")</td>
+<td>The word "concise" does NOT appear in the title paragraph. Title = distilled description of the whole article; should support sensitive and specific electronic retrieval; study design should be in the title when guidelines or journals require it (esp. RCTs, systematic reviews and meta-analyses). Some journals require a short title, "usually no more than 40 characters". Also: avoid abbreviations in the title.</td>
+<td>"The title provides a distilled description of the complete article"</td>
+<td>Verified. Do NOT attribute "concise but informative" to ICMJE.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Annesley TM. The title says it all. Clin Chem 2010;56(3):357-60. doi:10.1373/clinchem.2009.141523. PMID 20044445</td>
+<td>PubMed and Crossref records opened; text NOT opened (OUP and clinchem.org return Cloudflare 403; PubMed abstract "not available")</td>
+<td>Citation exists. Only content seen is a Semantic Scholar machine-generated TLDR: "tips and examples to help the author balance the number of words needed to describe the content of the article against losing or confusing the reader with too many words". I could NOT confirm any "the title has two purposes" wording or its recommendations. Same author wrote other 2010 Clin Chem writing pieces (e.g. PMID 20185620, "The abstract and the elevator talk: a tale of two summaries", Clin Chem 2010;56(4):521-4; abstract also unavailable).</td>
+<td>None obtainable</td>
+<td>Citation verified; content NOT verified. Do not quote "two purposes" on a slide.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Hartley J. Planning that title: practices and preferences for titles with colons in academic articles. Library &amp; Information Science Research 2007;29(4):553-568. doi:10.1016/j.lisr.2007.05.002</td>
+<td>Crossref, OpenAlex and Semantic Scholar records opened (no abstract; publisher abstract elided; ScienceDirect 403). Findings below come from a web-search summary only, not read by me.</td>
+<td>Unverified secondary summary: three studies of colon use and four of reader preference; arts journals use colons more than science; colons had no measurable effect on citation counts; readers generally preferred colon titles. Contrast Jamali 2011 (row 4): colon titles tended to get fewer downloads and citations. Mixed.</td>
+<td>None obtainable</td>
+<td>Citation verified; findings NOT verified. Not slide-ready.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Jamali HR, Nikzad M. Article title type and its relation with the number of downloads and citations. Scientometrics 2011;88(2):653-661. doi:10.1007/s11192-011-0412-z</td>
+<td>Abstract opened (RePEc/IDEAS record reproducing it). Full text paywalled, not opened.</td>
+<td>2,172 articles from six PLoS journals; title types descriptive, indicative, question; plus number of substantive words. Question titles downloaded more but cited less. Longer titles downloaded slightly less. Colon titles tended to be longer and get fewer downloads and citations. Downloads and citations positively correlated. No effect sizes in abstract. (One search hit listed the second author as "Majid Nabavi"; RePEc says Mahsa Nikzad.)</td>
+<td>"question titles tended to be downloaded more but cited less than the others"</td>
+<td>Abstract only.</td>
+</tr>
+<tr>
+<td>5a</td>
+<td>Letchford A, Moat HS, Preis T. The advantage of short paper titles. R Soc Open Sci 2015;2:150266. doi:10.1098/rsos.150266. PMID 26361556</td>
+<td>Opened (PMC full text, PMC4555861)</td>
+<td>Direction: shorter titles go with more citations. 20,000 most cited papers of 2010: Kendall tau = -0.07, N = 15,395. After percentile-ranking within journal: tau = -0.020, N = 15,395 (weaker). For 2007-2010 shorter titles still got more citations; for 2011-2013 the within-journal relation was not significant. Journal-level aggregate: tau = -0.19, N = 625. Text says the journal helps explain the relationship. Observational; most-cited papers only.</td>
+<td>"journals which publish papers with shorter titles receive more citations per paper"</td>
+<td>Verified. Effect small, partly journal-driven, mixed.</td>
+</tr>
+<tr>
+<td>5b</td>
+<td>Paiva CE, Lima JPSN, Paiva BSR. Articles with short titles describing the results are cited more often. Clinics (Sao Paulo) 2012;67(5):509-513. doi:10.6061/clinics/2012(05)17. PMID 22666797</td>
+<td>Abstract opened (PubMed). PMC3351256 full text not read.</td>
+<td>n = 423 research articles (Oct 2008) from all PLoS journals and 12 BMC journals; metrics analysed Dec 2011. Short titles: higher views and citations. Question mark, geographic region, colon or hyphen: fewer citations. Results-describing titles cited more than methods-describing. After multivariable analysis only low character count and title typology remained predictors. No effect sizes in abstract.</td>
+<td>"Short titles presenting results or conclusions were independently associated with higher citation counts"</td>
+<td>Abstract only.</td>
+</tr>
+<tr>
+<td>5c</td>
+<td>Direction summary</td>
+<td>n/a</td>
+<td>5a and 5b agree on direction (shorter = more citations), but both are observational, 5a shows the within-journal effect fades after 2010, and colon findings differ (Jamali fewer; Hartley unverified). Evidence is mixed and effects small.</td>
+<td>n/a</td>
+<td>Say "associated with", never "causes".</td>
+</tr>
+<tr>
+<td>6a</td>
+<td>STROBE item 1a. von Elm E et al. PLoS Med 2007;4:e296 (doi:10.1371/journal.pmed.0040296); Explanation and Elaboration doi:10.1371/journal.pmed.0040297</td>
+<td>Opened E&amp;E full text (PMC2020496). Statement text (PMC2020495) opened but item not found in it.</td>
+<td>Item 1(a) from E&amp;E. E&amp;E example title: "Leukaemia incidence among workers in the shoe and boot manufacturing industry: a case-control study". 1(b): informative and balanced abstract.</td>
+<td>"Indicate the study's design with a commonly used term in the title or the abstract."</td>
+<td>Verified (E&amp;E version).</td>
+</tr>
+<tr>
+<td>6b</td>
+<td>STARD 2015 item 1. Bossuyt PM et al. BMJ 2015;351:h5527. doi:10.1136/bmj.h5527</td>
+<td>Opened (PMC4623764)</td>
+<td>Table 1, Title or abstract, item 1. Full item: "Identification as a study of diagnostic accuracy using at least one measure of accuracy (such as sensitivity, specificity, predictive values, or AUC)".</td>
+<td>"Identification as a study of diagnostic accuracy using at least one measure of accuracy"</td>
+<td>Verified.</td>
+</tr>
+<tr>
+<td>6c</td>
+<td>TRIPOD+AI item 1. Collins GS et al. BMJ 2024;385:e078378. doi:10.1136/bmj-2023-078378. PMID 38626948</td>
+<td>Opened (PMC11019967)</td>
+<td>Title item 1, applies to both development and evaluation. Same wording in the TRIPOD+AI for Abstracts checklist.</td>
+<td>"Identify the study as developing or evaluating the performance of a multivariable prediction model" (item continues: ", the target population, and the outcome to be predicted")</td>
+<td>Verified. Quote shortened to fit limit; full item is longer.</td>
+</tr>
+<tr>
+<td>6d</td>
+<td>PRISMA 2020 item 1. Page MJ et al. Syst Rev 2021;10:89 (doi:10.1186/s13643-021-01626-4); E&amp;E BMJ 2021;372:n160 (PMC8005925)</td>
+<td>Opened both</td>
+<td>Item 1 wording from statement; E&amp;E essential elements add: report an informative title giving the main objective (usually population and intervention for intervention reviews).</td>
+<td>"Identify the report as a systematic review."</td>
+<td>Verified.</td>
+</tr>
+<tr>
+<td>6e</td>
+<td>CONSORT 2025 item 1a. Hopewell S et al. BMJ 2025;389:e081123. doi:10.1136/bmj-2024-081123. PMID 40228833</td>
+<td>Opened (PMC11995449)</td>
+<td>Checklist: Title and structured abstract; 1a "Identification as a randomised trial"; 1b structured summary of design, methods, results, conclusions.</td>
+<td>"Identification as a randomised trial"</td>
+<td>Verified.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Walters WH, Wilder EI. Fabrication and errors in the bibliographic citations generated by ChatGPT. Sci Rep 2023;13:14045. doi:10.1038/s41598-023-41032-5 (published title differs from the brief's wording)</td>
+<td>Abstract opened (Crossref). Full text not read.</td>
+<td>GPT-3.5 and GPT-4 each wrote short literature reviews on 42 multidisciplinary topics: 84 papers, 636 citations. Fabricated: 55% of GPT-3.5 citations, 18% of GPT-4. Among real citations, substantive errors: 43% GPT-3.5, 24% GPT-4.</td>
+<td>"55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated"</td>
+<td>Abstract only.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Bhattacharyya M, Miller VM, Bhattacharyya D, Miller LE. High rates of fabricated and inaccurate references in ChatGPT-generated medical content. Cureus 2023;15(5):e39238. doi:10.7759/cureus.39238. PMID 37337480</td>
+<td>Abstract opened (PubMed). Full text (PMC10277170) not read.</td>
+<td>ChatGPT-3.5, 30 short medical papers, 115 references (mean 3.8 +/- 1.1 per paper). 47% fabricated, 46% authentic but inaccurate, 7% authentic and accurate. Fabrication varied with prompt. Incorrect PMID in 93% of papers; wrong volume 64%, pages 64%, year 60%.</td>
+<td>"47% were fabricated, 46% were authentic but inaccurate, and only 7% were authentic and accurate"</td>
+<td>Abstract only.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Chelli M, Descamps J, et al. Hallucination rates and reference accuracy of ChatGPT and Bard for systematic reviews: comparative analysis. J Med Internet Res 2024;26:e53164. doi:10.2196/53164</td>
+<td>Abstract opened (Crossref). Full text not read.</td>
+<td>11 systematic reviews across 4 fields, 33 prompts, 471 references. Hallucinated = any 2 of title, first author, year wrong. Hallucination: GPT-3.5 39.6% (55/139), GPT-4 28.6% (34/119), Bard 91.4% (95/104), P&lt;.001. Precision 9.4% (13/139), 13.4% (16/119), 0% (0/104). Recall 11.9% (13/109) GPT-3.5, 13.7% (15/109) GPT-4, Bard 0.</td>
+<td>"Hallucination rates stood at 39.6% (55/139) for GPT-3.5, 28.6% (34/119) for GPT-4"</td>
+<td>Abstract only.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Athaluri SA, Manthena SV, Kesapragada VSRKM, Yarlagadda V, Dave T, Duddumpudi RTS. Exploring the boundaries of reality: investigating the phenomenon of AI hallucination in scientific writing through ChatGPT references. Cureus 2023;15(4):e37432. doi:10.7759/cureus.37432. PMID 37182055</td>
+<td>Abstract opened (PubMed). Full text (PMC10173677) not read.</td>
+<td>Research proposals drafted by ChatGPT (GPT-3); 178 references analysed. 69 had no DOI; 28 neither turned up on Google nor had an existing DOI; 3 were books. Abstract gives counts, not a "fabricated" percentage. My arithmetic only: 28/178 = 15.7%, 69/178 = 38.8%. Missing DOI is not proof of fabrication.</td>
+<td>"69 references did not have a Digital Object Identifier (DOI)"</td>
+<td>Abstract only. Use counts; do not call these a fabrication rate.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Not read: Annesley full text (row 2) and Hartley abstract (row 3). Publisher sites blocked automated access (Cloudflare 403, ScienceDirect 403). Row 3 findings are from a web-search summary and must not go on a slide until checked by hand.</li>
+<li>Row 1: a slide saying ICMJE wants "concise but informative" would be wrong for the current page. Use "distilled description" and "study design in the title".</li>
+<li>Corrections to the brief: Paiva is Clinics 2012;67(5), doi 10.6061/clinics/2012(05)17. Walters and Wilder's published title is "Fabrication and errors in the bibliographic citations generated by ChatGPT".</li>
+<li>"Hallucination" is defined differently in rows 7-10 (fabricated vs real; fabricated vs authentic-but-inaccurate; any 2 of title/author/year wrong; DOI/Google presence). Do not put the percentages on one axis.</li>
+<li>Models: GPT-3 (row 10), GPT-3.5 (7, 8, 9), GPT-4 (7, 9), Bard (9); all 2023-24 studies.</li>
+</ul>
+<h2 id="what-this-means-for-a-slide">What this means for a slide</h2>
+<p>Title evidence: shorter, result-stating titles are modestly associated with more citations, but the effect is small, observational and mixed, so teach "informative, design-labelled, no abbreviations" (ICMJE, reporting guidelines) rather than a magic word count. AI references: these rates (about 18% to 55% fabricated, 91% for Bard) apply to specific older models and prompts from 2023-24 and may not hold for current models, so present them as "this has happened, verify every reference", not as current rates.</p>
+</div></article></div></div></div><script>
+(function(){
+  var btns=[].slice.call(document.querySelectorAll('nav.docs button'));
+  var docs=[].slice.call(document.querySelectorAll('article[data-doc]'));
+  function show(id){
+    var found=docs.some(function(d){return d.dataset.doc===id});
+    if(!found) id=docs[0].dataset.doc;
+    docs.forEach(function(d){d.hidden=d.dataset.doc!==id});
+    btns.forEach(function(b){b.setAttribute('aria-current',b.dataset.doc===id?'true':'false')});
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    show(b.dataset.doc);
+    try{history.replaceState(null,'','#'+b.dataset.doc)}catch(e){}
+    window.scrollTo(0,0);
+  })});
+  show(decodeURIComponent((location.hash||'').slice(1)));
+})();
+</script>

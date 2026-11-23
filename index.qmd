@@ -30,9 +30,9 @@ revealjs-plugins:
 ::: notes
 **Session 7 · 45 min · Day 2, 10:30–11:15.** Clock: 0:00–0:30 (cumulative 0.5 min).
 
-Welcome. Two hands-on activities today: Spot the Problem (12–22) and Title Makeover (32–42).
+Welcome. Two hands-on activities today: Spot the Problem (12–22) and Title Makeover (33–42).
 
-Plan on the clock: Hook 0–3 · Anatomy 3–12 · Spot the Problem 12–22 · Citing 22–27 · AI text 27–32 · Title Makeover 32–42 · Take-home and checklist 42–45.
+Plan on the clock: Hook 0–3 · Anatomy 3–12 · Spot the Problem 12–22 · Citing 22–26 · AI text 26–33 · Title Makeover 33–42 · Take-home and checklist 42–45.
 
 All data in the running example are synthetic and illustrative: a cross-sectional study of 312 urinary *E. coli* isolates (first isolate per patient) at a tertiary hospital in Telangana. Session 4 (Results) used the same example. Session 3 (Methods) and Session 4 (Results) are done. Interpretation is Session 8 (Discussion), so keep it out of today.
 :::
@@ -96,10 +96,16 @@ Keep it short. This is my teaching opinion, not a citation. Ask: "When you revie
 | **3. Why it matters** | So what? | Local data guide empirical treatment |
 | **4. Objective** | What did you do? | One precise sentence |
 
+::: aside
+ICMJE: give context, state "the specific purpose or research objective", and "do not include data or conclusions from the work being reported". STROBE items 2–3; CONSORT 2025 items 6–7.
+:::
+
 ::: notes
 Clock: 3:00–5:00 (cumulative 5 min).
 
 The funnel moves from broad to narrow. Each step sets up the next. If the gap is missing, the objective feels random.
+
+**Verified 23 Nov 2026 (docs/lit_A_intro_structure.md):** ICMJE Recommendations, Preparing a Manuscript (live page): "Provide a context or background for the study"; "State the specific purpose or research objective of, or hypothesis tested by, the study"; "Cite only directly pertinent references, and do not include data or conclusions from the work being reported." STROBE checklist PDF: item 2 "Explain the scientific background and rationale for the investigation being reported"; item 3 "State specific objectives, including any prespecified hypotheses". CONSORT 2025 (PLOS Med copy, PMC11996237): item 6 background and rationale, item 7 specific objectives. The CONSORT 2025 numbers are 6 and 7, not 5 and 6, because the 2025 version added an open-science block. I did not open the BMJ copy.
 :::
 
 ## The CARS model {.smaller}
@@ -111,13 +117,13 @@ The funnel moves from broad to narrow. Each step sets up the next. If the gap is
 | **3. Occupy the niche** | State what *you* did | "We estimated the proportion of ESBL…" |
 
 ::: aside
-CARS = "Create a Research Space". Swales JM. *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press; 1990. (Three moves confirmed from secondary guides. Book not opened.)
+CARS = "Create a Research Space". Swales JM. *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press; 1990. Move names taken from secondary sources (for example Bahadoran et al., *Int J Endocrinol Metab* 2018, which cites Swales). Book not opened.
 :::
 
 ::: notes
 Clock: 5:00–7:00 (cumulative 7 min).
 
-CARS is a model of how research introductions are built, not a rule of a journal. It is the same funnel with names. Move 2 is the one authors skip. Accuracy note: I confirmed the three moves from secondary guides (university writing centres); I did not open the 1990 book. Say this if asked.
+CARS is a model of how research introductions are built, not a rule of a journal. It is the same funnel with names. Accuracy note: the three move names ("Establishing a territory", "Establishing a niche", "Occupying the niche") come from secondary sources only (a university writing-centre page and Bahadoran 2018). I could not open Swales 1990 or the 2004 revision. I found no source saying which move authors skip most often, so I do not claim one. Say this if asked.
 :::
 
 ## Shape and tense {.smaller}
@@ -127,10 +133,10 @@ CARS is a model of how research introductions are built, not a rule of a journal
 **Shape**
 
 -   3–4 short paragraphs
--   About **300–500 words**
+-   About **300–500 words** (teaching range)
 -   One idea per paragraph
 -   Every claim has a source
--   Check the journal's limit
+-   **Check the journal's limit**
 :::
 
 ::: {.column width="50%"}
@@ -142,10 +148,16 @@ CARS is a model of how research introductions are built, not a rule of a journal
 :::
 :::::
 
+::: aside
+Published guides differ: 2–3 paragraphs, about 250–300 words (Bahadoran, *Int J Endocrinol Metab* 2018); "four to five paragraphs", under 10–15% of the paper (Cals & Kotz, *J Clin Epidemiol* 2013).
+:::
+
 ::: notes
 Clock: 7:00–9:00 (cumulative 9 min).
 
-The 300–500 word range is a common teaching guide, not a rule. Journals differ. Example sentences are illustrative. Style is Session 9's topic, so only touch tense here.
+There is no single rule. I read both guides in full (docs/lit_A_intro_structure.md). Cals & Kotz say the introduction is a funnel, "typically not more than 10-15%" of the paper's word count, developed into "four to five paragraphs"; present tense for established facts, past or present perfect for findings not yet established. Bahadoran (2018) gives 2–3, sometimes 4, paragraphs and about 250–300 words (up to 500–600), and says to leave out results and conclusions; the word counts come from sources it cites, so say "summarising". My 3–4 paragraphs and 300–500 words is a teaching middle, not a rule. Journals differ, so the author guidelines win. Example sentences are illustrative. Style is Session 9's topic, so only touch tense here.
+
+Bavdekar (J Assoc Physicians India 2015) was read as an abstract only ("focused, succinct and crisp"), so I do not quote it for length.
 :::
 
 ## The last sentence is the objective {.smaller}
@@ -224,11 +236,15 @@ Let pairs call out problems before the next slide. Do not reveal the list yet.
 
 ### Rewrite
 
-*Urinary tract infection (UTI) is a leading reason for antibiotic prescribing, and* E. coli *causes most cases [cite].* ESBL production *limits oral options and pushes treatment towards carbapenems [cite].*
+*Almost half of all women have a urinary tract infection (UTI) in their lifetime [1], and* E. coli *causes most cases [2].* Extended-spectrum β-lactamase (ESBL)-producing *E. coli have emerged in the community as an important cause of UTI [3].*
 
-*Resistance differs between hospitals, so empirical choices need local data [cite]. Most Indian reports pool community and hospital isolates and count repeat isolates from the same patient. We found no recent first-isolate data from our region.*
+*Empirical choices need local data. The national ICMR network pools isolates across centres, including 26,562 urine isolates in 2024 [4]. We found no recent first-isolate data from our region.*
 
 *Local first-isolate data would guide empirical treatment and stewardship in our hospital.*
+
+::: aside
+[1] Foxman 2002 · [2] Flores-Mireles 2015 · [3] Pitout & Laupland 2008 · [4] ICMR AMRSN Annual Report 2024. Full references in the notes.
+:::
 
 **We aimed to estimate the proportion of ESBL-producing *E. coli* and resistance to six antibiotics in first urinary isolates at a tertiary hospital in Telangana, and to identify factors associated with ESBL production.**
 
@@ -237,7 +253,16 @@ Let pairs call out problems before the next slide. Do not reveal the list yet.
 ::: notes
 Clock: 17:00–22:00 (cumulative 22 min). End of activity.
 
-Reveal Problems first, then Rewrite. **Illustrative:** the rewrite is a teaching draft; "[cite]" marks where a verified reference goes. The claim "most Indian reports pool community and hospital isolates…" and "we found no recent first-isolate data from our region" are illustrative gap statements. In a real paper the author must check the literature before writing a gap.
+Reveal Problems first, then Rewrite. **Illustrative:** the rewrite is a teaching draft. The citations are real, and I opened each source (docs/lit_A_intro_structure.md), but "we found no recent first-isolate data from our region" and "empirical choices need local data" are illustrative statements for a synthetic study. In a real paper the author must search the literature before writing a gap.
+
+References in the rewrite:
+
+1. Foxman B. Epidemiology of urinary tract infections: incidence, morbidity, and economic costs. *Am J Med* 2002;113 Suppl 1A:5S-13S. PMID 12113866. Abstract read: "Almost half of all women will experience 1 UTI during their lifetime." US data from the 1990s, so say so if asked.
+2. Flores-Mireles AL, Walker JN, Caparon M, Hultgren SJ. Urinary tract infections: epidemiology, mechanisms of infection and treatment options. *Nat Rev Microbiol* 2015;13:269-84. PMID 25853778. Full text read: uropathogenic *E. coli* is the most common cause of UTI.
+3. Pitout JDD, Laupland KB. *Lancet Infect Dis* 2008;8:159-66. PMID 18291338. Abstract read: ESBL *E. coli* emerged in the community as an important cause of UTI.
+4. ICMR. Annual Report 2024, Antimicrobial Resistance Research & Surveillance Network (AMRSN), 8th edition (Jan–Dec 2024). https://www.icmr.gov.in/icmrobject/uploads/Report/1763981012_icmramrsnannualreport2024.pdf. PDF opened: 99,027 isolates, 26,562 from urine. It is the latest I found; I did not browse the ICMR index, so a newer report is not ruled out.
+
+The flawed text's "about half of all women" is the planted uncited statistic; the Foxman abstract supports it, but it is a US figure.
 
 Note how the objective mirrors Session 4: ESBL proportion, six antibiotics, associated factors.
 :::
@@ -248,15 +273,15 @@ Note how the objective mirrors Session 4: ESBL proportion, six antibiotics, asso
 
 ::: {.incremental}
 -   Prefer **primary** and **recent** sources over textbooks and reviews of reviews
--   For national data (for example ICMR AMRSN), cite the **exact report** you checked
+-   For national data (for example the ICMR AMRSN annual report), cite the **exact edition and page** you opened
 -   **One claim, one citation.** No citation dumps like [1–12]
 -   **Never cite what you have not read**
 :::
 
 ::: notes
-Clock: 22:00–24:30 (cumulative 24.5 min).
+Clock: 22:00–24:00 (cumulative 24 min).
 
-Not every claim needs a primary source. Definitions can use a good review or guideline. National surveillance numbers change each year, so open the report and cite the year and page you used. I did not verify any specific ICMR report for this deck. Do not put one on a slide unless you checked it.
+Not every claim needs a primary source. Definitions can use a good review or guideline. National surveillance numbers change each year, so open the report and cite the year and page you used. I opened the ICMR AMRSN Annual Report 2024 (8th edition) and used it in the rewrite. Two AI runs later in this session cited an "Annual Report, January 2022 to December 2022"; news coverage says such a report exists (the sixth), but I did not open it, so I do not vouch for that title.
 :::
 
 ## Verify, then manage {.smaller}
@@ -272,7 +297,7 @@ Not every claim needs a primary source. Definitions can use a good review or gui
 | 4. Store it | Add to **Zotero**; cite by key; do not retype |
 
 ::: notes
-Clock: 24:30–27:00 (cumulative 27 min). End of Citing.
+Clock: 24:00–26:00 (cumulative 26 min). End of Citing.
 
 Step 3 is the one people skip. A real paper can still be the wrong source for your sentence. The next section shows this.
 :::
@@ -290,9 +315,9 @@ Step 3 is the one people skip. A real paper can still be the wrong source for yo
 We then checked **every** reference.
 
 ::: notes
-Clock: 27:00–28:00 (cumulative 28 min).
+Clock: 26:00–27:00 (cumulative 27 min).
 
-The prompt and the raw, unedited output are in `ai_demo/intro_prompt_and_output.md`. Run on 23 Nov 2026 as one call to a small Claude model with no tools and no web, so it answered from memory. A different tool or day can give a different result.
+The prompt and the raw, unedited output are in `ai_demo/intro_prompt_and_output.md` (first run). I then repeated the same prompt: 5 more calls to a small Claude model (Haiku) and 3 to a larger one (Opus), saved as `ai_demo/run_*.md`. All calls ran on 23 Nov 2026 with no tools and no web. My instruction told each call to answer from memory, which is why the later runs end with "verify these" notes; a chatbot used the usual way may not add them. A different tool or day can give a different result.
 :::
 
 ## What the AI wrote {.smaller}
@@ -314,31 +339,59 @@ Opens with a general UTI statement [1]. Explains ESBL and plasmids [3,4]. Says b
 :::
 
 ::: notes
-Clock: 28:00–29:00 (cumulative 29 min).
+Clock: 27:00–28:00 (cumulative 28 min).
 
 Raw output saved in `ai_demo/`. Show the tabs, then go to the table. The summary above is mine, not the AI's wording, except the quoted phrases.
 :::
 
 ## Reference check {.smaller}
 
-| # | In PubMed? | Supports the claim? | Verdict |
-|---|---|---|---|
-| 1 Flores-Mireles 2015 | Yes | **Yes**: *E. coli* is the commonest UTI cause | Real, fits |
-| 2 Murray 2022 | Yes | **Partly**: "weakly regulated access" is not in the paper | Real, overstated |
-| 3 Pitout 2008 | Yes | **Yes**: ESBL *E. coli* in UTI | Real, fits |
-| 4 Bush 2010 | Yes | **Weak**: β-lactamase classification only | Real, weak fit |
-| 5 Gupta 2011 | Yes | **No**: US/EU guideline for uncomplicated cystitis; not about India | Real, **wrong claim** |
+| All 5 are in PubMed | Supports the claim? | Verdict |
+|---|---|---|
+| 1 Flores-Mireles 2015 | **Yes**: commonest UTI cause | Real, fits |
+| 2 Murray 2022 | **Partly**: "weakly regulated access" not in paper | Real, overstated |
+| 3 Pitout 2008 | **Yes**: ESBL *E. coli* in UTI | Real, fits |
+| 4 Bush 2010 | **Weak**: β-lactamase classification | Real, weak fit |
+| 5 Gupta 2011 | **No**: US/EU cystitis guideline | Real, **wrong claim** |
 
 ::: aside
-Checked in PubMed on 23 Nov 2026 (title, authors, journal, volume and pages matched; PMIDs 25853778, 35065702, 18291338, 19995920, 21292654). Support judged from titles and abstracts only; full texts not read.
+PubMed, 23 Nov 2026. Support judged from titles and abstracts only.
 :::
 
 ::: notes
-Clock: 29:00–31:00 (cumulative 31 min).
+Clock: 28:00–29:30 (cumulative 29.5 min).
+
+PubMed IDs checked (title, authors, journal, volume and pages matched): 25853778, 35065702, 18291338, 19995920, 21292654.
 
 **Honest result:** all five references are real. None was fabricated by this model on this day. Do not tell the room that AI always invents references. Tell them it **can**, and that real references can still fail: references 2, 4 and 5 do not support what the sentence says. Support was judged from abstracts. Full texts were not opened, so say "judged from the abstract".
 
-**Teaching add-on, not from the AI:** I invented a sixth reference for the room to catch. Next slide.
+Next slide: the same prompt, eight more times.
+:::
+
+## Same prompt, nine runs {.smaller}
+
+| What I checked | Result |
+|---|---|
+| Runs and references | 9 runs (6 Haiku, 3 Opus), 45 references |
+| Journal papers found in PubMed (title, journal, volume, page match) | **43 of 43** (13 different papers) |
+| Report cited that I could not open | **2** (an ICMR 2022 report, in two Opus runs) |
+| Fabricated journal paper | **None found** |
+| Runs saying Indian ESBL prevalence "exceeds half" | 3 of 9 |
+| …that cited an Indian urinary ESBL prevalence study for it | **0 of 3** (general reviews or policy papers, judged from titles) |
+| Runs ending with a blank "[setting]" | 6 of 9 |
+
+::: aside
+Earlier models, other prompts: fabricated references in 55% (GPT-3.5) and 18% (GPT-4) (Walters & Wilder, *Sci Rep* 2023); 47% for GPT-3.5 (Bhattacharyya, *Cureus* 2023). Abstracts read.
+:::
+
+::: notes
+Clock: 29:30–31:00 (cumulative 31 min).
+
+All numbers are from `ai_demo/ref_check.csv` (script `ai_demo/check_refs.py`, Crossref and PubMed, journal + volume + first page + title match) and from reading the eight raw files. **Existence was checked by machine; support was judged by me from titles only for the "exceeds half" sentence.** Full texts were not read for the other sentences, so I make no count of "supports the claim" beyond the first run.
+
+Message: modern models rarely invent a journal paper in this task; the real danger is a real paper under a sentence it does not support, plus a confident India claim with no India source. The two ICMR citations are a title I could not confirm: news coverage says the 2022 annual report exists (it was the sixth), but I did not open it.
+
+Caveat: my instruction told each call to answer from memory with no tools, so later runs end with "verify these" notes. The published rates are from 2023–24 studies of GPT-3.5, GPT-4 and Bard with their own prompts and definitions of "fabricated", so they are not comparable with each other or with today's models. Walters & Wilder: 636 citations from 84 papers. Bhattacharyya: 115 references. Abstracts only; full texts not opened. Chelli 2024 (JMIR) and Athaluri 2023 (Cureus) are in docs/lit_B_titles_ai.md if asked.
 :::
 
 ## Plant one fake, then catch it {.smaller}
@@ -355,9 +408,32 @@ Put it after "India reports high proportions of ESBL-producing *E. coli*." Then 
 -   Do the authors, journal and pages fit together?
 
 ::: notes
-Clock: 31:00–32:00 (cumulative 32 min). End of section.
+Clock: 31:00–32:00 (cumulative 32 min).
 
 **Planted fake.** Authors, title and pages are invented. A PubMed title search on 23 Nov 2026 found no match. Never show it without the red label. Other AI flaws to point out from the raw text: the "gap" is generic ("data remain fragmented"), "few studies link… to outcomes" is an unsupported claim, citation numbers are out of order ([1], [3,4], [3], [2], [5]), the objective has a blank [setting], and the main claim about India has no citation.
+:::
+
+## Using AI for the Introduction, safely {.smaller}
+
+::: {.callout-important appearance="simple"}
+Give the AI **your verified sources**. Do not ask it for facts or references.
+:::
+
+::: {.incremental}
+-   **You** find and read the papers
+-   Ask for **structure, language and gap-check questions**
+-   Check every sentence it adds against a source **you hold**
+-   **Disclose** AI use as the journal asks; you stay accountable
+:::
+
+::: aside
+See ICMJE Recommendations, Section V.A, "Use of AI" by authors.
+:::
+
+::: notes
+Clock: 32:00–33:00 (cumulative 33 min). End of section.
+
+This is practical advice, not a citation. ICMJE Section V.A (AI use by authors) was opened for this deck; check the wording of your own journal's policy. Detailed ethics and disclosure wording belong to Session 6 and style to Session 9, so keep this to one minute. A fair test: could you point to the page that supports each sentence?
 :::
 
 # Activity: Title Makeover {.smaller}
@@ -385,13 +461,13 @@ Clock: 31:00–32:00 (cumulative 32 min). End of section.
 :::::
 
 ::: aside
-STROBE item 1a: indicate the study's design "with a commonly used term in the title or the abstract" (von Elm et al., *Ann Intern Med* 2007). CONSORT 2025 item 1a: "identification as a randomised trial" in the title (BMJ 2025;388:e081123).
+STROBE 1a: "Indicate the study's design with a commonly used term in the title or the abstract". CONSORT 2025 1a: "Identification as a randomised trial". ICMJE: "The title provides a distilled description of the complete article."
 :::
 
 ::: notes
-Clock: 32:00–34:00 (cumulative 34 min).
+Clock: 33:00–34:30 (cumulative 34.5 min).
 
-Checked: STROBE item 1a wording from the cross-sectional checklist PDF (title **or** abstract; CONSORT asks for it in the title). CONSORT 2025 item 1a wording from the published checklist table (PLOS Medicine, PMC11996237). Journal limits vary, so check the author guidelines.
+Checked 23 Nov 2026 (docs/lit_B_titles_ai.md): STROBE item 1a wording from the checklist (title **or** abstract; CONSORT asks for it in the title). CONSORT 2025 item 1a from the published checklist (PLOS Medicine copy, PMC11996237). ICMJE title-page text opened. Other guidelines: STARD item 1 "Identification as a study of diagnostic accuracy using at least one measure of accuracy"; PRISMA 2020 item 1 "Identify the report as a systematic review"; TRIPOD+AI item 1 asks for the model, target population and outcome. ICMJE also asks authors to avoid abbreviations in the title, and some journals want a short title of "usually no more than 40 characters". Do not say ICMJE asks for a "concise" title; that word is not in its title paragraph. Journal limits vary, so check the author guidelines.
 :::
 
 ## Three title styles {.smaller}
@@ -402,10 +478,16 @@ Checked: STROBE item 1a wording from the cross-sectional checklist PDF (title **
 | **Declarative** | "Prior antibiotic use is associated with ESBL…" | Journal allows; result is clear and the design supports it |
 | **Question** | "Does prior antibiotic use predict ESBL?" | Rare; some editors dislike them |
 
+::: aside
+Evidence is mixed and observational. Shorter titles and titles that state results were cited more (Letchford 2015; Paiva 2012). Question titles were downloaded more but cited less (Jamali 2011).
+:::
+
 ::: notes
-Clock: 34:00–35:00 (cumulative 35 min).
+Clock: 34:30–35:30 (cumulative 35.5 min).
 
 Declarative titles state the finding. For a cross-sectional study, say "associated with", never "causes". Many journals discourage question titles. Check the journal.
+
+**Evidence (docs/lit_B_titles_ai.md).** Letchford, Moat, Preis, *R Soc Open Sci* 2015 (full text read): shorter titles go with more citations, Kendall tau about -0.07 (N = 15,395), much weaker within journals (-0.020) and not significant for 2011–13. Paiva et al., *Clinics* 2012 (abstract only, 423 articles): short titles that present results were cited more. Jamali & Nikzad, *Scientometrics* 2011 (abstract only, 2,172 PLoS articles): "question titles tended to be downloaded more but cited less". All are associations, small, and partly journal-driven. Do not say that short titles cause citations, and do not let this override the reporting guidelines. Not verified: Annesley, *Clin Chem* 2010 and Hartley 2007 (colon titles). Both citations exist but I could not open their text.
 :::
 
 ## Weak title 1 of 5 {.smaller}
@@ -423,7 +505,7 @@ Declarative titles state the finding. For a cross-sectional study, say "associat
 :::
 
 ::: notes
-Clock: 35:00–36:00 (cumulative 36 min). 30 seconds to think, then reveal.
+Clock: 35:30–36:30 (cumulative 36.5 min). 30 seconds to think, then reveal.
 
 Weak titles are teaching examples I wrote in the common weak style, not real papers.
 :::
@@ -443,7 +525,7 @@ Weak titles are teaching examples I wrote in the common weak style, not real pap
 :::
 
 ::: notes
-Clock: 36:00–37:00 (cumulative 37 min).
+Clock: 36:30–37:30 (cumulative 37.5 min).
 
 Illustrative. The fixed title assumes a diagnostic accuracy design (STARD). Tell the room the fix depends on the real design.
 :::
@@ -463,7 +545,7 @@ Illustrative. The fixed title assumes a diagnostic accuracy design (STARD). Tell
 :::
 
 ::: notes
-Clock: 37:00–38:00 (cumulative 38 min).
+Clock: 37:30–38:30 (cumulative 38.5 min).
 
 Illustrative. Place chosen because the workshop is at MGIMS Sevagram (Wardha district). It is not a real study. Age range and setting are what the weak title leaves out.
 :::
@@ -483,7 +565,7 @@ Illustrative. Place chosen because the workshop is at MGIMS Sevagram (Wardha dis
 :::
 
 ::: notes
-Clock: 38:00–39:00 (cumulative 39 min).
+Clock: 38:30–39:30 (cumulative 39.5 min).
 
 Illustrative. Exposure, outcome, population and design are now in the title. No claim about the result.
 :::
@@ -503,7 +585,7 @@ Illustrative. Exposure, outcome, population and design are now in the title. No 
 :::
 
 ::: notes
-Clock: 39:00–40:00 (cumulative 40 min).
+Clock: 39:30–40:30 (cumulative 40.5 min).
 
 Entirely invented trial for teaching (42 words). The fixed title keeps "randomised" (CONSORT 2025 item 1a) and moves detail such as blinding and centre to the abstract and Methods.
 :::
@@ -523,7 +605,7 @@ Build it live. Ask for each part: **organism**, **specimen**, **setting**, **out
 :::
 
 ::: notes
-Clock: 40:00–42:00 (cumulative 42 min). End of activity.
+Clock: 40:30–42:00 (cumulative 42 min). End of activity.
 
 Illustrative study. Ask the room to shorten it by five words without losing the design. Possible: drop "isolates".
 :::

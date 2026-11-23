@@ -1,0 +1,15 @@
+key,journal_as_cited,year_as_cited,volume_as_cited,first_page_as_cited,crossref_title_similarity,crossref_title,doi,crossref_year,crossref_volume,crossref_pages,year_match,volume_match,first_page_match,pubmed_ids,exists_title_match
+FloresMireles2015,Nat Rev Microbiol,2015,13,269,1.0,"Urinary tract infections: epidemiology, mechanisms of infection and treatment options",10.1038/nrmicro3432,2015,13,269-284,True,True,True,25853778,yes
+Murray2022,Lancet,2022,399,629,0.82,,,,,,,,,35065702,yes
+Pitout2008,Lancet Infect Dis,2008,8,159,1.0,Extended-spectrum β-lactamase-producing Enterobacteriaceae: an emerging public-health concern,10.1016/s1473-3099(08)70041-0,2008,8,159-166,True,True,True,18291338,yes
+Bush2010,Antimicrob Agents Chemother,2010,54,969,1.0,Updated Functional Classification of β-Lactamases,10.1128/aac.01009-09,2010,54,969-976,True,True,True,19995920,yes
+Gupta2011,Clin Infect Dis,2011,52,e103,1.0,International Clinical Practice Guidelines for the Treatment of Acute Uncomplicated Cystitis and Pyelonephritis in Women: A 2010 Update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases,10.1093/cid/ciq257,2011,52,e103-e120,True,True,True,21292654,yes
+Woerther2013,Clin Microbiol Rev,2013,26,744,1.0,Trends in Human Fecal Carriage of Extended-Spectrum β-Lactamases in the Community: Toward the Globalization of CTX-M,10.1128/cmr.00023-13,2013,26,744-758,True,True,True,24092853,yes
+Laxminarayan2016a,Lancet,2016,387,168,1.0,Access to effective antimicrobials: a worldwide challenge,10.1016/s0140-6736(15)00474-2,2016,387,168-175,True,True,True,26603918,yes
+Kumarasamy2010,Lancet Infect Dis,2010,10,597,1.0,,,,,,,,,20705517,yes
+Rawat2010,J Glob Infect Dis,2010,2,263,0.96,Extended-spectrum ß-lactamases in gram negative bacteria,10.4103/0974-777x.68531,2010,2,263,True,True,True,20927289,yes
+Paterson2005,Clin Microbiol Rev,2005,18,657,1.0,Extended-Spectrum β-Lactamases: a Clinical Update,10.1128/cmr.18.4.657-686.2005,2005,18,657-686,True,True,True,16223952,yes
+Laxminarayan2013,Lancet Infect Dis,2013,13,1057,0.98,,,,,,,,,24252483,yes
+Laxminarayan2016b,PLoS Med,2016,13,e1001974,1.0,Antibiotic Resistance in India: Drivers and Opportunities for Action,10.1371/journal.pmed.1001974,2016,13,e1001974,True,True,True,26934098,yes
+Walia2019,Indian J Med Res,2019,149,164,0.89,Establishing Antimicrobial Resistance Surveillance &amp; Research Network in India,10.4103/ijmr.ijmr_226_18,2019,149,164-179,True,True,True,31219080,yes
+ICMR_AMRSN_2022,ICMR report (grey literature),2023,,,0.61,,,,,,,,,,not checked (grey literature)
