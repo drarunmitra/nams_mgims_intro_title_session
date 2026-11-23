@@ -652,10 +652,6 @@ Ten tick boxes. Same list is on the handout. Questions if time allows.
 
 # Questions? {.smaller}
 
-## Thank you
-
-Slides prepared with Dr Arun Mitra, AIIMS Bibinagar.
-
 ::: notes
 After 45:00. Closing slide.
 :::

@@ -40,7 +40,7 @@ quarto render handout.qmd --to docx
 ## Revision (23 Nov 2026): literature review
 - `docs/literature_review.md` maps each slide claim to a source and a status. Detail: `docs/lit_A_intro_structure.md`, `docs/lit_B_titles_ai.md`.
 - Added: ICMJE / STROBE / CONSORT 2025 anchors for the Introduction; published paragraph and length guides (they disagree); real, verified citations in the rewrite; a nine-run AI summary slide; a "Using AI for the Introduction, safely" slide; title-evidence aside. Removed an unsupported claim about CARS.
-- Slide count: 35 (including section dividers). Overflow check: every slide checked at 1280x720 with all fragments shown.
+- Slide count: 34 (including section dividers). Overflow check: every slide checked at 1280x720 with all fragments shown.
 
 ## What is synthetic
 
