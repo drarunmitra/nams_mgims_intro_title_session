@@ -1,0 +1,75 @@
+---
+title: "Session 7 handout: Introduction & Title"
+subtitle: "Workshop on AI in Health Research · NAMS · MGIMS Sevagram · 24 Nov 2026 · Dr Rahul Narang"
+format:
+  typst:
+    papersize: a4
+    margin: {x: 1.6cm, y: 1.4cm}
+    fontsize: 10pt
+    keep-typ: false
+  docx: default
+---
+
+*All text is illustrative teaching material for a synthetic study of urinary* E. coli. *Author names are placeholders.*
+
+## 1. Spot the Problem
+
+Read the Introduction. Mark every problem. Aim for seven.
+
+> Urinary tract infections (UTIs) are among the most common infections known to mankind. Since Alexander Fleming discovered penicillin in 1928, antibiotics have transformed medicine, and many new drugs were developed over the following decades. About half of all women will have a UTI in their lifetime. *Escherichia coli* is the commonest cause of UTI. Sharma et al. found ESBL in many isolates from Delhi. Reddy et al. studied resistance in Hyderabad. Singh et al. reported ciprofloxacin resistance in Lucknow. Kumar et al. looked at nitrofurantoin in Chennai. Patel et al. tested urine isolates in Ahmedabad. Antibiotic resistance is a big problem in India. In our hospital, we found that 50.6% of *E. coli* isolates were ESBL producers. Hence, we conducted this study to study the pattern of antimicrobial resistance in urinary *E. coli*.
+
+My rewrite (use the back of the page if needed):
+
+\
+\
+\
+\
+\
+
+{{< pagebreak >}}
+
+## 2. Title Makeover
+
+Rewrite each title. Name population, setting and design where you can.
+
+**1. A study of antimicrobial resistance pattern in a tertiary care hospital**
+
+__________________________________________________________________________________
+
+**2. Role of procalcitonin**
+
+__________________________________________________________________________________
+
+**3. Prevalence of anaemia among adolescent girls**
+
+__________________________________________________________________________________
+
+**4. Shocking new insights into sepsis: a first-ever study**
+
+__________________________________________________________________________________
+
+**5. A prospective, randomised, double-blind, parallel-group, single-centre, active-controlled clinical trial to evaluate and compare the effectiveness, safety and cost of silver-impregnated hydrofibre dressing versus conventional povidone-iodine gauze dressing in the management of chronic diabetic foot ulcers among patients attending a tertiary care hospital**
+
+__________________________________________________________________________________
+
+## 3. Introduction & Title checklist
+
+☐ Opens with the topic, not a cliché
+
+☐ Moves from known to unknown to why it matters
+
+☐ The **gap** is stated in one sentence
+
+☐ No history lesson or literature dump
+
+☐ No methods and no results in the Introduction
+
+☐ Every claim has a **source I have read**
+
+☐ Every reference checked (DOI / PubMed)
+
+☐ **Objective** is specific and matches Methods and Results
+
+☐ Title names population, setting and design
+
+☐ No hype, no unexplained abbreviations; within journal limit

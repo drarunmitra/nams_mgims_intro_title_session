@@ -1,0 +1,579 @@
+---
+title: "**Introduction & Title**"
+subtitle: "**Writing the first things a reader sees**"
+author: "<br> Dr Rahul Narang"
+institute: "Dean and Professor & Head, Microbiology, AIIMS Bibinagar <br> Workshop on AI in Health Research · NAMS · MGIMS Sevagram <br> 24 November 2026"
+format:
+  revealjs:
+    slide-number: true
+    css: style.css
+    self-contained: true
+    embed-resources: true
+    mermaid-format: svg
+    footer: "Session 7 · Writing a Strong Introduction & Title"
+revealjs-plugins:
+  - tabset
+---
+
+## Contents
+
+::: {.incremental}
+-   Title and Introduction: **read first, written last**
+-   Anatomy of an Introduction: **funnel, CARS, objective**
+-   Activity: **Spot the Problem**
+-   **Citing** in the Introduction
+-   **Evaluating AI-generated** text and references
+-   Activity: **Title Makeover**
+-   Checklist
+:::
+
+::: notes
+**Session 7 · 45 min · Day 2, 10:30–11:15.** Clock: 0:00–0:30 (cumulative 0.5 min).
+
+Welcome. Two hands-on activities today: Spot the Problem (12–22) and Title Makeover (32–42).
+
+Plan on the clock: Hook 0–3 · Anatomy 3–12 · Spot the Problem 12–22 · Citing 22–27 · AI text 27–32 · Title Makeover 32–42 · Take-home and checklist 42–45.
+
+All data in the running example are synthetic and illustrative: a cross-sectional study of 312 urinary *E. coli* isolates (first isolate per patient) at a tertiary hospital in Telangana. Session 4 (Results) used the same example. Session 3 (Methods) and Session 4 (Results) are done. Interpretation is Session 8 (Discussion), so keep it out of today.
+:::
+
+## Read in one order, written in another {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+**Readers move top-down**
+
+1.  **Title**
+2.  Abstract
+3.  **Introduction**
+4.  Methods
+5.  Results
+6.  Discussion
+:::
+
+::: {.column width="50%"}
+**Smart writers start in the middle**
+
+1.  Methods
+2.  Results
+3.  Discussion
+4.  **Introduction**
+5.  Abstract
+6.  **Title**
+:::
+:::::
+
+::: notes
+Clock: 0:30–1:30 (cumulative 1.5 min).
+
+Idea reused from Session 3 (Methods). The editor reads the title first and the Introduction second. You write them last, when you know what the study found.
+:::
+
+## Why this matters
+
+::: {.callout-important appearance="simple"}
+Editors and reviewers form a first opinion from the **title** and the **first paragraph**. Both must say what the study is and why it was needed.
+:::
+
+::: {.incremental}
+-   The title decides who finds your paper.
+-   The Introduction decides whether the reader trusts your question.
+-   Neither can be fixed by good statistics later.
+:::
+
+::: notes
+Clock: 1:30–3:00 (cumulative 3 min). End of Hook.
+
+Keep it short. This is my teaching opinion, not a citation. Ask: "When you review a paper, where do you look first?"
+:::
+
+## Anatomy of an Introduction {.smaller}
+
+| Step | Question the reader asks | Example (running study) |
+|---|---|---|
+| **1. Known** | What do we know? | *E. coli* is the commonest cause of UTI; ESBL limits oral options |
+| **2. Unknown (gap)** | What is missing? | No recent first-isolate data from our region |
+| **3. Why it matters** | So what? | Local data guide empirical treatment |
+| **4. Objective** | What did you do? | One precise sentence |
+
+::: notes
+Clock: 3:00–5:00 (cumulative 5 min).
+
+The funnel moves from broad to narrow. Each step sets up the next. If the gap is missing, the objective feels random.
+:::
+
+## The CARS model {.smaller}
+
+| Move | Job | Running example |
+|---|---|---|
+| **1. Establish a territory** | Show the topic matters; summarise what is known | UTI is common; *E. coli* leads; ESBL is spreading |
+| **2. Establish a niche** | Show what is missing: a gap, a conflict, a question | First-isolate, region-specific data are scarce |
+| **3. Occupy the niche** | State what *you* did | "We estimated the proportion of ESBL…" |
+
+::: aside
+CARS = "Create a Research Space". Swales JM. *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press; 1990. (Three moves confirmed from secondary guides. Book not opened.)
+:::
+
+::: notes
+Clock: 5:00–7:00 (cumulative 7 min).
+
+CARS is a model of how research introductions are built, not a rule of a journal. It is the same funnel with names. Move 2 is the one authors skip. Accuracy note: I confirmed the three moves from secondary guides (university writing centres); I did not open the 1990 book. Say this if asked.
+:::
+
+## Shape and tense {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+**Shape**
+
+-   3–4 short paragraphs
+-   About **300–500 words**
+-   One idea per paragraph
+-   Every claim has a source
+-   Check the journal's limit
+:::
+
+::: {.column width="50%"}
+**Tense**
+
+-   **Present** for established knowledge: "*E. coli* **causes** most UTIs."
+-   **Past** for specific prior studies: "A 2019 study **found**…"
+-   **Past** for what you did: "We **estimated**…"
+:::
+:::::
+
+::: notes
+Clock: 7:00–9:00 (cumulative 9 min).
+
+The 300–500 word range is a common teaching guide, not a rule. Journals differ. Example sentences are illustrative. Style is Session 9's topic, so only touch tense here.
+:::
+
+## The last sentence is the objective {.smaller}
+
+::: {.callout-important appearance="simple"}
+The final sentence of the Introduction is the **objective**. It must match Methods and Results **exactly**.
+:::
+
+| Section | Same question, same words |
+|---|---|
+| **Introduction** | "We aimed to estimate the proportion of ESBL-producing *E. coli*…" |
+| **Methods** | Design, sample, outcome that answer that aim |
+| **Results** | First result reports that proportion |
+
+::: notes
+Clock: 9:00–10:30 (cumulative 10.5 min).
+
+Test: read the objective, then the first line of Results. They should answer each other. Session 4 reported ESBL as 158/312 (50.6%) in this illustrative study.
+:::
+
+## What does NOT belong {.smaller}
+
+::: {.incremental}
+-   **Textbook history** ("Since Fleming discovered penicillin…")
+-   **A literature dump:** a list of studies with no synthesis
+-   **Methods:** save them for the Methods section
+-   **Results or conclusions:** never reveal them here
+-   **Claims with no source**
+:::
+
+::: notes
+Clock: 10:30–12:00 (cumulative 12 min). End of Anatomy.
+
+These five become the planted problems in the next activity. Do not say so yet.
+:::
+
+# Activity: Spot the Problem {.smaller}
+
+::: {.callout-note appearance="simple"}
+**Pairs · 4 min.** Read the Introduction on the next slide. Mark every problem. Aim for **seven**.
+:::
+
+Your handout has the same text. Write on it.
+
+::: notes
+Clock: 12:00–13:00 (cumulative 13 min). Activity starts.
+
+Give out the handout (it has no answers). Pairs, 4 minutes silent reading and marking, then 2 minutes sharing.
+:::
+
+## The flawed Introduction {.smaller}
+
+> Urinary tract infections (UTIs) are among the most common infections known to mankind. Since Alexander Fleming discovered penicillin in 1928, antibiotics have transformed medicine, and many new drugs were developed over the following decades. About half of all women will have a UTI in their lifetime. *Escherichia coli* is the commonest cause of UTI. Sharma et al. found ESBL in many isolates from Delhi. Reddy et al. studied resistance in Hyderabad. Singh et al. reported ciprofloxacin resistance in Lucknow. Kumar et al. looked at nitrofurantoin in Chennai. Patel et al. tested urine isolates in Ahmedabad. Antibiotic resistance is a big problem in India. In our hospital, we found that 50.6% of *E. coli* isolates were ESBL producers. Hence, we conducted this study to study the pattern of antimicrobial resistance in urinary *E. coli*.
+
+::: notes
+Clock: 13:00–17:00 (cumulative 17 min).
+
+**Illustrative text.** I wrote this Introduction for teaching. The author names (Sharma, Reddy, Singh, Kumar, Patel) are placeholders and do not point to real papers. The 50.6% result is the synthetic running example. "About half of all women" is a widely repeated claim used here as the planted uncited statistic.
+
+Let pairs call out problems before the next slide. Do not reveal the list yet.
+:::
+
+## Spot the Problem: answers {.smaller}
+
+::: {.panel-tabset}
+
+### Problems
+
+1.  **Cliché opener**: "most common… known to mankind"
+2.  **History lesson**: Fleming and penicillin
+3.  **Uncited statistic**: "about half of all women"
+4.  **Literature dump**: five studies, no synthesis
+5.  **No explicit gap**: nothing says what is missing
+6.  **Vague objective**: "to study the pattern of…"
+7.  **Result revealed**: the 50.6% belongs in Results
+
+### Rewrite
+
+*Urinary tract infection (UTI) is a leading reason for antibiotic prescribing, and* E. coli *causes most cases [cite].* ESBL production *limits oral options and pushes treatment towards carbapenems [cite].*
+
+*Resistance differs between hospitals, so empirical choices need local data [cite]. Most Indian reports pool community and hospital isolates and count repeat isolates from the same patient. We found no recent first-isolate data from our region.*
+
+*Local first-isolate data would guide empirical treatment and stewardship in our hospital.*
+
+**We aimed to estimate the proportion of ESBL-producing *E. coli* and resistance to six antibiotics in first urinary isolates at a tertiary hospital in Telangana, and to identify factors associated with ESBL production.**
+
+:::
+
+::: notes
+Clock: 17:00–22:00 (cumulative 22 min). End of activity.
+
+Reveal Problems first, then Rewrite. **Illustrative:** the rewrite is a teaching draft; "[cite]" marks where a verified reference goes. The claim "most Indian reports pool community and hospital isolates…" and "we found no recent first-isolate data from our region" are illustrative gap statements. In a real paper the author must check the literature before writing a gap.
+
+Note how the objective mirrors Session 4: ESBL proportion, six antibiotics, associated factors.
+:::
+
+# Citing in the Introduction {.smaller}
+
+## One claim, the right citation
+
+::: {.incremental}
+-   Prefer **primary** and **recent** sources over textbooks and reviews of reviews
+-   For national data (for example ICMR AMRSN), cite the **exact report** you checked
+-   **One claim, one citation.** No citation dumps like [1–12]
+-   **Never cite what you have not read**
+:::
+
+::: notes
+Clock: 22:00–24:30 (cumulative 24.5 min).
+
+Not every claim needs a primary source. Definitions can use a good review or guideline. National surveillance numbers change each year, so open the report and cite the year and page you used. I did not verify any specific ICMR report for this deck. Do not put one on a slide unless you checked it.
+:::
+
+## Verify, then manage {.smaller}
+
+| Step | How |
+|---|---|
+| 1. Find the record | PubMed or Crossref: does the paper exist? |
+| ↓ | |
+| 2. Check the identifier | Does the **DOI** resolve to *this* title and these authors? |
+| ↓ | |
+| 3. Read it | Does the paper say what **your sentence** says? |
+| ↓ | |
+| 4. Store it | Add to **Zotero**; cite by key; do not retype |
+
+::: notes
+Clock: 24:30–27:00 (cumulative 27 min). End of Citing.
+
+Step 3 is the one people skip. A real paper can still be the wrong source for your sentence. The next section shows this.
+:::
+
+# Evaluating AI-generated text {.smaller}
+
+## The naive prompt
+
+::: {.callout-note appearance="simple"}
+**Prompt, typed exactly:**
+
+*Write a 300-word introduction with 5 references for a study on ESBL E. coli in urinary isolates in India*
+:::
+
+We then checked **every** reference.
+
+::: notes
+Clock: 27:00–28:00 (cumulative 28 min).
+
+The prompt and the raw, unedited output are in `ai_demo/intro_prompt_and_output.md`. Run on 23 Nov 2026 as one call to a small Claude model with no tools and no web, so it answered from memory. A different tool or day can give a different result.
+:::
+
+## What the AI wrote {.smaller}
+
+::: {.panel-tabset}
+
+### Text (short)
+
+Opens with a general UTI statement [1]. Explains ESBL and plasmids [3,4]. Says burden is highest "where antibiotic access is weakly regulated" [2]. States that India "reports high proportions" of ESBL (**no citation**). Says empirical choices are made "without local susceptibility data" [5]. Ends: *"Data… remain fragmented."* Objective names **[setting]** (a blank).
+
+### References
+
+1.  Flores-Mireles AL, et al. *Nat Rev Microbiol* 2015;13:269-84
+2.  Murray CJL, et al. *Lancet* 2022;399:629-55
+3.  Pitout JDD, Laupland KB. *Lancet Infect Dis* 2008;8:159-66
+4.  Bush K, Jacoby GA. *Antimicrob Agents Chemother* 2010;54:969-76
+5.  Gupta K, et al. *Clin Infect Dis* 2011;52:e103-20
+
+:::
+
+::: notes
+Clock: 28:00–29:00 (cumulative 29 min).
+
+Raw output saved in `ai_demo/`. Show the tabs, then go to the table. The summary above is mine, not the AI's wording, except the quoted phrases.
+:::
+
+## Reference check {.smaller}
+
+| # | In PubMed? | Supports the claim? | Verdict |
+|---|---|---|---|
+| 1 Flores-Mireles 2015 | Yes | **Yes**: *E. coli* is the commonest UTI cause | Real, fits |
+| 2 Murray 2022 | Yes | **Partly**: "weakly regulated access" is not in the paper | Real, overstated |
+| 3 Pitout 2008 | Yes | **Yes**: ESBL *E. coli* in UTI | Real, fits |
+| 4 Bush 2010 | Yes | **Weak**: β-lactamase classification only | Real, weak fit |
+| 5 Gupta 2011 | Yes | **No**: US/EU guideline for uncomplicated cystitis; not about India | Real, **wrong claim** |
+
+::: aside
+Checked in PubMed on 23 Nov 2026 (title, authors, journal, volume and pages matched; PMIDs 25853778, 35065702, 18291338, 19995920, 21292654). Support judged from titles and abstracts only; full texts not read.
+:::
+
+::: notes
+Clock: 29:00–31:00 (cumulative 31 min).
+
+**Honest result:** all five references are real. None was fabricated by this model on this day. Do not tell the room that AI always invents references. Tell them it **can**, and that real references can still fail: references 2, 4 and 5 do not support what the sentence says. Support was judged from abstracts. Full texts were not opened, so say "judged from the abstract".
+
+**Teaching add-on, not from the AI:** I invented a sixth reference for the room to catch. Next slide.
+:::
+
+## Plant one fake, then catch it {.smaller}
+
+::: {.callout-warning appearance="simple"}
+**PLANTED FAKE: not from the AI. Invented for teaching.**
+
+*Narayanan V, Deshpande A. Prevalence of ESBL-producing* Escherichia coli *in Indian urinary isolates: a pooled national analysis.* J Glob Antimicrob Resist. *2023;33:211-9.*
+:::
+
+Put it after "India reports high proportions of ESBL-producing *E. coli*." Then ask:
+
+-   Does it resolve in **PubMed**? Does the **DOI** exist?
+-   Do the authors, journal and pages fit together?
+
+::: notes
+Clock: 31:00–32:00 (cumulative 32 min). End of section.
+
+**Planted fake.** Authors, title and pages are invented. A PubMed title search on 23 Nov 2026 found no match. Never show it without the red label. Other AI flaws to point out from the raw text: the "gap" is generic ("data remain fragmented"), "few studies link… to outcomes" is an unsupported claim, citation numbers are out of order ([1], [3,4], [3], [2], [5]), the objective has a blank [setting], and the main claim about India has no citation.
+:::
+
+# Activity: Title Makeover {.smaller}
+
+## Good titles {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+**Do**
+
+-   Be **specific, informative, accurate**
+-   Name **population, setting, design**
+-   Use a design term (see aside)
+-   Check the journal's word or character limit
+:::
+
+::: {.column width="50%"}
+**Avoid**
+
+-   "A study of…", "Profile of…"
+-   Hype: "shocking", "first-ever"
+-   Unexplained abbreviations
+-   Claims the design cannot support
+:::
+:::::
+
+::: aside
+STROBE item 1a: indicate the study's design "with a commonly used term in the title or the abstract" (von Elm et al., *Ann Intern Med* 2007). CONSORT 2025 item 1a: "identification as a randomised trial" in the title (BMJ 2025;388:e081123).
+:::
+
+::: notes
+Clock: 32:00–34:00 (cumulative 34 min).
+
+Checked: STROBE item 1a wording from the cross-sectional checklist PDF (title **or** abstract; CONSORT asks for it in the title). CONSORT 2025 item 1a wording from the published checklist table (PLOS Medicine, PMC11996237). Journal limits vary, so check the author guidelines.
+:::
+
+## Three title styles {.smaller}
+
+| Style | Example | Use when |
+|---|---|---|
+| **Descriptive** | "ESBL production in urinary *E. coli* at a tertiary hospital" | Most observational studies |
+| **Declarative** | "Prior antibiotic use is associated with ESBL…" | Journal allows; result is clear and the design supports it |
+| **Question** | "Does prior antibiotic use predict ESBL?" | Rare; some editors dislike them |
+
+::: notes
+Clock: 34:00–35:00 (cumulative 35 min).
+
+Declarative titles state the finding. For a cross-sectional study, say "associated with", never "causes". Many journals discourage question titles. Check the journal.
+:::
+
+## Weak title 1 of 5 {.smaller}
+
+::: {.callout-warning appearance="simple"}
+**A study of antimicrobial resistance pattern in a tertiary care hospital**
+:::
+
+*What is the organism? The specimen? Where? What design?*
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+**Antimicrobial resistance in urinary *Escherichia coli* at a tertiary hospital in Telangana: a cross-sectional study**
+:::
+
+::: notes
+Clock: 35:00–36:00 (cumulative 36 min). 30 seconds to think, then reveal.
+
+Weak titles are teaching examples I wrote in the common weak style, not real papers.
+:::
+
+## Weak title 2 of 5 {.smaller}
+
+::: {.callout-warning appearance="simple"}
+**Role of procalcitonin**
+:::
+
+*Role in what? In whom? Measured how?*
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+**Procalcitonin to diagnose bacterial sepsis in adults in an emergency department: a diagnostic accuracy study**
+:::
+
+::: notes
+Clock: 36:00–37:00 (cumulative 37 min).
+
+Illustrative. The fixed title assumes a diagnostic accuracy design (STARD). Tell the room the fix depends on the real design.
+:::
+
+## Weak title 3 of 5 {.smaller}
+
+::: {.callout-warning appearance="simple"}
+**Prevalence of anaemia among adolescent girls**
+:::
+
+*Which girls? Which place? How was anaemia defined?*
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+**Prevalence of anaemia among adolescent girls aged 10–19 years in rural Wardha, Maharashtra: a community-based cross-sectional study**
+:::
+
+::: notes
+Clock: 37:00–38:00 (cumulative 38 min).
+
+Illustrative. Place chosen because the workshop is at MGIMS Sevagram (Wardha district). It is not a real study. Age range and setting are what the weak title leaves out.
+:::
+
+## Weak title 4 of 5 {.smaller}
+
+::: {.callout-warning appearance="simple"}
+**Shocking new insights into sepsis: a first-ever study**
+:::
+
+*Hype. "First-ever" is hard to prove. It says nothing about the study.*
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+**Time to antibiotics and 28-day mortality in adults with sepsis: a retrospective cohort study**
+:::
+
+::: notes
+Clock: 38:00–39:00 (cumulative 39 min).
+
+Illustrative. Exposure, outcome, population and design are now in the title. No claim about the result.
+:::
+
+## Weak title 5 of 5 {.smaller}
+
+::: {.callout-warning appearance="simple"}
+*A prospective, randomised, double-blind, parallel-group, single-centre, active-controlled clinical trial to evaluate and compare the effectiveness, safety and cost of silver-impregnated hydrofibre dressing versus conventional povidone-iodine gauze dressing in the management of chronic diabetic foot ulcers among patients attending a tertiary care hospital*
+
+**42 words.**
+:::
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+**Silver hydrofibre versus povidone-iodine gauze dressings for chronic diabetic foot ulcers: a randomised controlled trial**
+:::
+
+::: notes
+Clock: 39:00–40:00 (cumulative 40 min).
+
+Entirely invented trial for teaching (42 words). The fixed title keeps "randomised" (CONSORT 2025 item 1a) and moves detail such as blinding and centre to the abstract and Methods.
+:::
+
+## Makeover: the running example {.smaller}
+
+::: {.callout-warning appearance="simple"}
+Antibiotic resistance pattern of *E. coli*
+:::
+
+Build it live. Ask for each part: **organism**, **specimen**, **setting**, **outcomes**, **design**.
+
+. . .
+
+::: {.callout-tip appearance="simple"}
+**ESBL production and antibiotic resistance in urinary *Escherichia coli* isolates at a tertiary hospital in Telangana: a cross-sectional study**
+:::
+
+::: notes
+Clock: 40:00–42:00 (cumulative 42 min). End of activity.
+
+Illustrative study. Ask the room to shorten it by five words without losing the design. Possible: drop "isolates".
+:::
+
+# Take home {.smaller}
+
+::: {.incremental}
+-   Read first, **write last**.
+-   The Introduction is a **funnel** that ends in a precise **objective**.
+-   **One claim, one verified citation.** Never cite what you have not read.
+-   **A real reference can still be the wrong reference.** Check each sentence.
+-   A title names **population, setting and design**.
+:::
+
+::: notes
+Clock: 42:00–43:00 (cumulative 43 min).
+:::
+
+## Introduction & Title checklist {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+-   [ ] Opens with the topic, not a cliché
+-   [ ] Moves from known to unknown to why it matters
+-   [ ] The **gap** is stated in one sentence
+-   [ ] No history lesson or literature dump
+-   [ ] No methods and no results in the Introduction
+:::
+
+::: {.column width="50%"}
+-   [ ] Every claim has a **source I have read**
+-   [ ] Every reference checked (DOI / PubMed)
+-   [ ] **Objective** is specific and matches Methods and Results
+-   [ ] Title names population, setting and design
+-   [ ] No hype, no unexplained abbreviations; within journal limit
+:::
+:::::
+
+::: notes
+Clock: 43:00–45:00 (cumulative 45 min). End of session.
+
+Ten tick boxes. Same list is on the handout. Questions if time allows.
+:::
+
+# Questions? {.smaller}
+
+## Thank you
+
+Slides prepared with Dr Arun Mitra, AIIMS Bibinagar.
+
+::: notes
+After 45:00. Closing slide.
+:::
