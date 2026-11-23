@@ -25,6 +25,7 @@ Quarto Reveal.js deck for **Session 7 – Writing a Strong Introduction & Title*
 |---|---|
 | `index.qmd` / `index.html` | Deck source and self-contained deck (press `S` for speaker view) |
 | `Introduction_Title_Session7.pdf` | PDF export (no speaker notes; tabs print as separate pages) |
+| `facilitator_guide.html`, `Facilitator_Guide_Session7.pdf` | Facilitator guide: prep checklist, minute-by-minute run of show, answer keys for both activities, how to present the AI demo, what to cut, likely questions, neighbouring sessions, what is verified |
 | `handout.qmd` → `handout.pdf`, `handout.docx` | 2-page handout: flawed Introduction, 5 weak titles, checklist. No answers |
 | `ai_demo/intro_prompt_and_output.md` | Exact prompt and raw, unedited AI output |
 | `style.css`, `_extensions/` | House style and tabset plugin |
